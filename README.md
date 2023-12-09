@@ -71,6 +71,7 @@ plt.title('histogram of winpercent')
 ```
 
 **reflections and adds on:**
+
 Beyond basic data summaries, we can consider exploring data types and unique values in each column. Investigate the presence of outliers using box plots or scatter plots and ponder their impact on your analysis. Learn about data normalization and standardization techniques, which are crucial when dealing with features of different scales.
 
 For example, in general, we can 
@@ -87,6 +88,7 @@ df_bool = df.replace(0, False).replace(1, True)
 ```
 
 **Reflections and adds on:**
+
 We can explore various methods of dealing with missing data: imputation, dropping rows/columns, or using algorithms that can handle missing values. Reflect on the biases that different imputation methods might introduce. Additionally, consider the use of domain knowledge for more intelligent data replacement.
 
 Here's the code:
@@ -114,6 +116,7 @@ plt.show()
 ```
 
 **Reflection and adds on:**
+
 We can examine how different aspects of a bar plot, like horizontal vs. vertical bars, can affect the interpretation of data. We can experiment with stacked bar plots or grouped bar plots to display multiple categories of data. Consider how to best convey information in a limited space, like the use of annotations or interactive elements.
 
 Here's the general code:
@@ -134,6 +137,7 @@ df = df.assign(fruity_choco = df['chocolate'] + df['fruity'])
 ```
 
 **Reflection and adds on:**
+
 We can dive into advanced column manipulation like converting data types, handling categorical data through one-hot encoding or label encoding, and exploring pandas methods for string manipulation. Reflect on the importance of these operations in preparing data for machine learning models.
 
 Here's the general code:
@@ -156,6 +160,7 @@ df = df[(df['fruity'] == 1) | (df['chocolate'] == 1)]
 ```
 
 **Reflection and adds on:**
+
 We can explore more complex row operations like filtering based on multiple conditions, using lambda functions for row-wise operations, and understanding the indexing in pandas.
 
 here's the general code: 
@@ -173,6 +178,7 @@ df = df.sort_values(by='sugarpercent', ascending=False).reset_index(drop=True)
 ```
 
 **Reflections and adds on**
+
 We can go beyond simple sorting to explore multi-level sorting, sorting based on index, and custom sorting using lambda functions. Consider how sorting interacts with other DataFrame operations like grouping and merging, and its impact on data visualization.
 
 Here's the general code:
@@ -191,6 +197,7 @@ sugar_summary = df.groupby('fruity')['sugarpercent'].agg(['min', 'mean', 'max'])
 ```
 
 **Reflections and adds on:**
+
 We can Investigate more complex groupby operations, such as grouping by multiple columns, using custom aggregation functions, and exploring pivot tables for cross-tabulation. Reflect on how these techniques enable deeper data exploration and hypothesis testing in datasets.
 
 Here's the general code (I have provided an extra specific example for curiosity):
@@ -217,6 +224,7 @@ df['year'] = df['year'].apply(standardize_year)
 df['weight'] = df['weight'].apply(standardize_weight)
 ```
 **Reflections and adds on:**
+
 I'm particularly want to compare apply functions to "transform", and "filter" functions here:
 
 - transform():
