@@ -11,7 +11,7 @@ This website will majorly reflect on what we have learned from assignment 2 and 
 # A2
 
 ### Q1: Import (0.25 points)
-This part teaches us how to import essential packages like pandas, numpy, eaborn, and matplotlib.pyplot.
+This part teaches us how to import essential packages like pandas, numpy, seaborn, and matplotlib.pyplot.
 
 > Code used:
 ```
@@ -21,7 +21,7 @@ import seaborn as sns # used for plotting the diagram
 import matplotlib.pyplot as plt # used for plotting diagram
 ```
 
-**reflections and adds on:**
+**Reflections and adds on:**
 
 The thing worth noticing in this part of question would be the difference between matplotlib and seaborn, as they might looks similar to the starters, I have done some research and summarize the differences below:
 
@@ -42,7 +42,7 @@ This question focused on reading data into Python as a DataFrame using pandas, s
 pd.read_csv( ‘data path’ ) # read a csv file from given data path
 ```
 
-**reflections and adds on:**
+**Reflections and adds on:**
 
 This question focused specifically on CSV files, but that’s not always the format we are going to get the data from. Therefore, I have done some researches and summarized the way to read other formats of data below:
 
@@ -70,7 +70,7 @@ plt.ylabel('frequency')
 plt.title('histogram of winpercent')
 ```
 
-**reflections and adds on:**
+**Reflections and adds on:**
 
 Beyond basic data summaries, we can consider exploring data types and unique values in each column. Investigate the presence of outliers using box plots or scatter plots and ponder their impact on your analysis. Learn about data normalization and standardization techniques, which are crucial when dealing with features of different scales.
 
@@ -287,11 +287,11 @@ fig = pd.plotting.scatter_matrix(df)
 ```
 
 Scatter matrix plot is a very useful tool, in which it can 
- - Visual Representation of Pairwise Relationships
+ - be visual Representation of Pairwise Relationships
  - be a base for Correlation Analysis
  	- Scatter plots in the matrix can reveal the nature of the relationship between variables, whether it’s linear, polynomial, or non-existent (no correlation).
 	- The strength and direction of the relationship can also be inferred. Tight clusters of points indicate a strong relationship, while widely spread points suggest a weak or no relationship.
- - Identifying Outliers and Anomalies
+ - Identify Outliers and Anomalies
  	- Outliers or unusual data points can be easily spotted in scatter plots. These are points that do not fit well with the general trend of the data.
 
  **In short, It can guide further data analysis steps, such as indicating which variables might require transformation, which pairs of variables might be useful for feature engineering, or which variables might need to be dropped due to redundancy.**
