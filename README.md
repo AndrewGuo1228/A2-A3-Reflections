@@ -21,7 +21,7 @@ import seaborn as sns # used for plotting the diagram
 import matplotlib.pyplot as plt # used for plotting diagram
 ```
 
-> reflections and adds on:
+**reflections and adds on:**
 
 The thing worth noticing in this part of question would be the difference between matplotlib and seaborn, as they might looks similar to the starters, I have done some research and summarize the differences below:
 
@@ -42,7 +42,7 @@ This question focused on reading data into Python as a DataFrame using pandas, s
 pd.read_csv( ‘data path’ ) # read a csv file from given data path
 ```
 
-> reflections and adds on:
+**reflections and adds on:**
 
 This question focused specifically on CSV files, but that’s not always the format we are going to get the data from. Therefore, I have done some researches and summarized the way to read other formats of data below:
 
@@ -70,7 +70,7 @@ plt.ylabel('frequency')
 plt.title('histogram of winpercent')
 ```
 
-> reflections and adds on:
+**reflections and adds on:**
 Beyond basic data summaries, we can consider exploring data types and unique values in each column. Investigate the presence of outliers using box plots or scatter plots and ponder their impact on your analysis. Learn about data normalization and standardization techniques, which are crucial when dealing with features of different scales.
 
 For example, in general, we can 
@@ -86,7 +86,7 @@ This taught us to use dynamic value replacement in datasets using the replace me
 df_bool = df.replace(0, False).replace(1, True)
 ```
 
-> Reflections and adds on:
+**Reflections and adds on:**
 We can explore various methods of dealing with missing data: imputation, dropping rows/columns, or using algorithms that can handle missing values. Reflect on the biases that different imputation methods might introduce. Additionally, consider the use of domain knowledge for more intelligent data replacement.
 
 Here's the code:
