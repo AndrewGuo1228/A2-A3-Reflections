@@ -1,7 +1,7 @@
 # A2 & A3 Reflections
 
 ### Author: A heartbroken student from 2023 winter quarter
-### Warnings: **Please do remember to submit your assignments and discussion labs after validation!!!** The author of this website forget to submit 16% of overall grade, and he was desparately painful while coding this website, so please do not commmit the same careless and silly mistakes as him did. Besides the content in COGS 108, this website will also involve some important concepts covered in DSC80, serving as a bridge to connect two courses for memory enhancing. Hope you all can avoid this unfortunate, end up with a descent grade, and be benefited from the information provided in this website. **Anyone interested is welcomed to enrich this websites with details.** 
+### Warnings: **Please do remember to submit your assignments and discussion labs after validation!!!** The author of this website forget to submit 16% of overall grade, and he was desparately painful while coding this website, so please do not commmit the same careless and silly mistakes as him did. Besides the content in COGS 108, this website will also involve some important concepts covered in DSC80, serving as a bridge to connect two courses to enhance memory. Hope you all can avoid these unfortunate things, end up with a descent grade, and be benefited from the information provided in this website. **you are welcomed to enrich this websites.** 
 
 ---
 ## Introduction
@@ -201,8 +201,8 @@ Here's the general code (I have provided an extra specific example for curiosity
 
 # A3
 ```
-**Quick intro**: this assignment's purpose is to guide us through a complete data analysis from scratch, according to the guidance,
-I will break down this assignment into three parts, and talk about them separately.
+Quick intro: this assignment's purpose is to guide us through a complete data analysis from scratch, 
+according to the guidance, I will break down this assignment into three parts, and talk about them separately.
 ```
 
 ### Part 1: Load & Clean Data (2.5 points) 
